@@ -4,8 +4,12 @@ var user = {
 	firstName: "Hitesh",
 	courseCount: 3,
 	getCourseCount: function () {
-		// body...
-		console.log("LINE 7",this);
+		console.log("LINE NO 7",this);
+		function sayHello(){
+			console.log("sayHello");
+			console.log("LINE 10",this);
+		}
+		sayHello();
 	},
 };
 
