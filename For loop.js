@@ -41,3 +41,20 @@ do{
 } while (i < 10);
 
 // mostly is used in hardware domain when n case of excuting once the wrong code
+
+
+
+
+
+
+let arrList = ["ragini","mihika","ayushi","Hitesh","komal","jio"];
+
+// for....in loop
+for(let index in arrList){
+ console.log(index , arrList[index]);   
+}
+
+// for....of loop
+for (let arr of arrList){
+    console.log(arr);
+}
