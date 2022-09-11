@@ -1,0 +1,11 @@
+let Name = prompt('Enter your name');
+
+let firstChar = Name.slice(0,1);
+
+let strNew = Name.slice(1,6);
+
+let setUpperChar = firstChar.toUpperCase();
+
+let updatedName = setUpperChar + strNew;
+
+alert("Hi "+updatedName);
